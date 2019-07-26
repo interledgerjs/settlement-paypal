@@ -28,6 +28,11 @@ In order to test the handling of an incoming transaction, create a separate busi
 npm run build && node ./build/pay.js
 ```
 
+## TODO
+
+- [] Add webhook and ipn verification logic
+- [] Add integration tests
+
 ## Contributing
 
 Pull requests are welcome. Please fork the repository and submit!
