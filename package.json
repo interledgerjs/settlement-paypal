@@ -1,0 +1,53 @@
+{
+  "name": "ilp-settlement-paypal",
+  "version": "0.0.1",
+  "description": "An ILP settlement engine for PayPal",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "tsc && node build/launch.js",
+    "clean": "rm -rf build",
+    "debug": "tsc && DEBUG=* node build/launch.js",
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barronwei/ilp-settlement-paypal.git"
+  },
+  "author": "Barron Wei",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "camelcase-keys": "^6.0.0",
+    "ioredis": "^4.11.2",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "ngrok": "^3.2.3",
+    "paypal-rest-sdk": "^1.8.1",
+    "raw-body": "^2.4.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/ioredis": "^4.0.13",
+    "@types/koa": "^2.0.49",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.0.42",
+    "@types/mocha": "^5.2.7",
+    "@types/paypal-rest-sdk": "^1.7.4",
+    "@types/sinon": "^7.0.13",
+    "@types/uuid": "^3.4.5",
+    "chai": "^4.2.0",
+    "ioredis-mock": "^4.12.1",
+    "mocha": "^6.1.4",
+    "mocha-typescript": "^1.1.17",
+    "mockttp": "^0.15.1",
+    "sinon": "^7.3.2",
+    "source-map-support": "^0.5.12",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.5.3"
+  }
+}
