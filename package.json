@@ -1,7 +1,7 @@
 {
-  "name": "ilp-settlement-paypal",
+  "name": "settlement-paypal",
   "version": "0.0.1",
-  "description": "An ILP settlement engine for PayPal",
+  "description": "An Interledger settlement engine for PayPal",
   "main": "build/index.js",
   "scripts": {
     "start": "tsc && node build/launch.js",
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/barronwei/ilp-settlement-paypal.git"
+    "url": "git+https://github.com/interledgerjs/settlement-paypal.git"
   },
-  "author": "Barron Wei",
+  "author": "Interledger Team <info@interledger.org>",
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^0.19.0",
