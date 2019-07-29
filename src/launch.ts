@@ -10,7 +10,7 @@ const CONNECTOR_URL = process.env.CONNECTOR_URL || 'http://localhost:7771'
 const REDIS_PORT = process.env.REDIS_PORT || 6379
 
 const LEDGER_EMAIL = process.env.LEDGER_EMAIL || ''
-const LEDGER_CLIENT_ID = process.env.LEDGER_EMAIL || ''
+const LEDGER_CLIENT_ID = process.env.LEDGER_CLIENT_ID || ''
 const LEDGER_SECRET = process.env.LEDGER_SECRET || ''
 
 const LEDGER_PREFIX = process.env.LEDGER_PREFIX || 'paypal'
