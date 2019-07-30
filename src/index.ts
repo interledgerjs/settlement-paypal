@@ -299,13 +299,13 @@ export class PayPalSettlementEngine {
             }
             return
           default:
-            ctx.body = 404
             console.log(`IPN handler received an incomplete payment.`)
+            ctx.body = 404
         }
         return
       default:
-        ctx.body = 404
         console.log(`IPN handler received a type ${txnType} payment.`)
+        ctx.body = 404
     }
   }
 
