@@ -8,6 +8,8 @@
     "clean": "rm -rf build",
     "debug": "tsc && DEBUG=* node build/launch.js",
     "build": "tsc",
+    "dock": "docker-compose build && docker-compose up",
+    "lint": "tslint --project .",
     "test": "mocha -r ts-node/register test/**/*.test.ts"
   },
   "repository": {
