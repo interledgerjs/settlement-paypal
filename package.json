@@ -40,7 +40,7 @@
     "@types/uuid": "^3.4.5",
     "chai": "^4.2.0",
     "ioredis-mock": "^4.12.1",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.3",
     "mocha-typescript": "^1.1.17",
     "mockttp": "^0.15.1",
     "sinon": "^7.3.2",
